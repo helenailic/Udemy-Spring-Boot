@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:the="http://www.thymeleaf.org" >
+
+<head>
+    <title>Thymeleaf Demo</title>
+
+</head>
+
+<body>
+
+Hello World of Spring!
+
+<br> <br>
+
+Student name: <span th:text="${param.studentName}" /> <!--this is the name put in the html form field-->
+
+<br> <br>
+
+The message: <span th:text="${message}" /> <!--retrieves the information from the model-->
+
+</body>
+
+</html>
